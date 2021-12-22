@@ -1,0 +1,86 @@
+::before::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.show {
+  display: contents;
+}
+
+.hidden {
+  display: none;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #34515f;
+  position: fixed;
+  z-index: 1000;
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+header a h1 {
+  margin: 0;
+  padding: 25px;
+}
+
+.mainContainer {
+  display: flex;
+}
+.mainContainer .leftSide {
+  width: 350px;
+  min-height: 1000px;
+  margin-top: 100px;
+  background-color: #34515f;
+  color: #ffffff;
+  position: fixed;
+  z-index: 1000;
+}
+.mainContainer .leftSide a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.mainContainer .leftSide a h3 {
+  margin: 0;
+  padding: 25px;
+}
+.mainContainer .leftSide a h3:hover {
+  background-color: #5988a0;
+}
+.mainContainer .rightSide {
+  width: 80%;
+  padding: 30px;
+  margin-left: 400px;
+  margin-top: 120px;
+}
+.mainContainer .rightSide .categoryContainer p, .mainContainer .rightSide .enterprizeContainer p, .mainContainer .rightSide .imageContainer p, .mainContainer .rightSide .sizeGridContainer p, .mainContainer .rightSide .productContainer p, .mainContainer .rightSide .updateContainer p {
+  margin: 0;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.mainContainer .rightSide .categoryContainer input, .mainContainer .rightSide .enterprizeContainer input, .mainContainer .rightSide .imageContainer input, .mainContainer .rightSide .sizeGridContainer input, .mainContainer .rightSide .productContainer input, .mainContainer .rightSide .updateContainer input {
+  margin-bottom: 50px;
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 300px;
+}
+.mainContainer .rightSide .categoryContainer select, .mainContainer .rightSide .enterprizeContainer select, .mainContainer .rightSide .imageContainer select, .mainContainer .rightSide .sizeGridContainer select, .mainContainer .rightSide .productContainer select, .mainContainer .rightSide .updateContainer select {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.mainContainer .rightSide .categoryContainer textarea, .mainContainer .rightSide .enterprizeContainer textarea, .mainContainer .rightSide .imageContainer textarea, .mainContainer .rightSide .sizeGridContainer textarea, .mainContainer .rightSide .productContainer textarea, .mainContainer .rightSide .updateContainer textarea {
+  width: 300px;
+  height: 150px;
+  margin-bottom: 50px;
+}
+.mainContainer .rightSide .categoryContainer .acpBut, .mainContainer .rightSide .enterprizeContainer .acpBut, .mainContainer .rightSide .imageContainer .acpBut, .mainContainer .rightSide .sizeGridContainer .acpBut, .mainContainer .rightSide .productContainer .acpBut, .mainContainer .rightSide .updateContainer .acpBut {
+  padding: 10px 20px;
+  border-radius: 5px;
+}/*# sourceMappingURL=styleAdmin.css.map */

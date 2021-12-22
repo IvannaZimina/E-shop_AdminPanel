@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet" href="/stylesheets/styleAdmin.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+
+    <title><%= title%></title>
+</head>
+<body>
+    
+    <header>
+        <a href="/admin"><h1><%= title%></h1></a>
+    </header>
+
+    <div class="mainContainer">
+
+        <div class="leftSide">
+            <div class="addCategory"><a href="/admin/category"><h3>Добавить категорию</h3></a></div>
+            <div class="addEnterprize"><a href="/admin/enterprize"><h3>Добавить производителя</h3></a></div>
+            <div class="addImage"><a href="/admin/image"><h3>Добавить изображение</h3></a></div>
+            <div class="addSize"><a href="/admin/size"><h3>Добавить размер</h3></a></div>
+            <div class="addProduct"><a href="/admin/product"><h3>Добавить товар</h3></a></div>
+            <div class="updateNameProd"><a href="/admin/updateNameProd"><h3>Изменить название товара</h3></a></div>
+        </div>
+
+        <div class="rightSide">
+            <div class="enterprizeContainer">
+                <form name="enterprizeForm">
+
+                    <div class="lblForm">
+                        <p>Артикул производителя: </p>
+                        <input type="number" name="article" placeholder="enter article enterprize">
+                    </div>
+            
+                    <div class="lblForm">
+                        <p>Название производителя: </p>
+                        <input type="text" name="name" placeholder="enter entrprize name">
+                    </div>
+            
+                    <div class="lblForm">
+                        <p>Страна производителя: </p>
+                        <input type="text" name="country" placeholder="enter country name">
+                    </div>
+
+                    <button type="submit" class="acpBut">Добавить</button>
+
+                </form>
+            </div>
+
+            <div><p class="messAdd hidden">Enterprizer has been sucsessfuly added.</p></div>
+            <div class="errorMess hidden">You enter wrong datas. Repeat action.</div>
+
+        </div>
+
+    </div>
+    
+
+
+    <script src="/javascripts/admin/enterprize.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+        "article": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 255
+        },
+        "price": {
+            "type": "string"
+        },
+        "enterprize": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 255
+        },
+        "size": {
+            "type": "array"
+        },
+        "category": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 255
+        },
+        "image": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 255
+        },
+        "description": {
+            "type": "string",
+            "maxLength": 500
+        }
+    },
+    "additionalProperties": false
+}

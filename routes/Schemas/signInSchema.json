@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "nameUser": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 255
+        },
+        "emailUser": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 255
+        },
+        "pwdUser": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 255
+        }
+    },
+    "additionalProperties": false
+}

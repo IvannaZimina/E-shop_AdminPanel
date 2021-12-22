@@ -1,0 +1,96 @@
+::before::after {
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: rgb(64, 112, 167);
+    display: flex;
+    justify-content: space-around;
+
+    h1 {
+        margin: 0;
+        padding: 25px 150px;
+        color: #ffffff;
+    }
+
+    .logIn {
+        padding: 25px 200px;
+
+        .forgotPwd > a {
+            color: #ffffff;
+            margin-left: 210px;
+        }
+
+        .userAuthName > p {
+            color: #ffee00;
+            font-size: 40px;
+            font-weight: 600;
+            margin: 0;
+        }
+    }
+}
+
+.contentnContainer {
+    min-height: 1000px;
+    width: 100%;
+    display: flex;
+    border: 1px solid grey;
+    margin: 0 auto;
+
+    .leftBar {
+        width: 15%;
+        background-color: rgba(200, 212, 228, 0.719);
+    }
+
+    .centerContainer {
+        width: 70%;
+        background-color: rgba(233, 238, 245, 0.527);
+        margin-top: 99px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .cardContainer {
+            width: 250px;
+            max-height: 350px;
+            margin: 20px 0;
+
+            .imageProd {
+
+                img {
+                    width: 150px;
+                    padding: 10px 50px;
+                }
+            }
+
+            .nameProd > p, .priceProd > p {
+                text-align: center;
+            }
+
+            .buyLink {
+                background-color: rgba(167, 164, 164, 0.637);
+                border-radius: 5px;
+                padding: 10px 100px;
+
+                a {
+                    text-decoration: none;
+                    font-weight: 600;
+                    color: #000000;
+                }
+            }
+        }
+    }
+
+    .rightBar {
+        width: 15%;
+        background-color: rgba(200, 212, 228, 0.719);
+    }
+}

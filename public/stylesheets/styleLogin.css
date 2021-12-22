@@ -1,0 +1,144 @@
+::before::after {
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+.createContainer {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 150px;
+  border: 1px solid #bdbbbb;
+  border-radius: 15px;
+  display: flex;
+}
+.createContainer .signInBlock {
+  width: 40%;
+  padding: 15% 3%;
+  background-color: #54c298;
+  color: #ffffff;
+  border-radius: 15px 0 0 15px;
+}
+.createContainer .signInBlock .WCBMessage {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+.createContainer .signInBlock .loginMessage {
+  padding: 0 5%;
+}
+.createContainer .signInBlock .signCLickBtn {
+  margin: 40px 25%;
+  width: 150px;
+}
+.createContainer .signInBlock .signCLickBtn button {
+  background-color: none;
+  border-radius: 25px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0 20%;
+  border: 1px solid #ffffff;
+}
+.createContainer .registerBlock {
+  width: 60%;
+  padding: 50px 20px;
+}
+.createContainer .registerBlock .createAcc {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  color: #54c298;
+}
+.createContainer .registerBlock .createBlock {
+  width: 85%;
+  margin: 0 auto;
+}
+.createContainer .registerBlock .createBlock .signUpBtn {
+  margin: 40px 30%;
+  width: 150px;
+  background-color: #54c298;
+  border-radius: 25px;
+}
+.createContainer .registerBlock .createBlock .signUpBtn button {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0 20%;
+}
+
+.singInContainer {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 150px;
+  border: 1px solid #bdbbbb;
+  border-radius: 15px;
+  display: flex;
+}
+.singInContainer .enteringBlock {
+  width: 60%;
+  padding: 50px 20px;
+}
+.singInContainer .enteringBlock .enterAcc {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  color: #54c298;
+}
+.singInContainer .enteringBlock .enterBlock {
+  width: 85%;
+  margin: 0 auto;
+}
+.singInContainer .enteringBlock .enterBlock .signUpBtn {
+  margin: 40px 30%;
+  width: 150px;
+  background-color: #54c298;
+  border-radius: 25px;
+}
+.singInContainer .enteringBlock .enterBlock .signUpBtn button {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0 20%;
+}
+.singInContainer .enteringBlock .enterBlock .forgotPwd {
+  margin: 30px 0;
+}
+.singInContainer .enteringBlock .enterBlock .forgotPwd a {
+  color: grey;
+  text-align: center;
+  padding: 5% 25%;
+  text-decoration: underline;
+}
+.singInContainer .signUpBlock {
+  width: 40%;
+  padding: 15% 3%;
+  background-color: #54c298;
+  color: #ffffff;
+  border-radius: 0 15px 15px 0;
+}
+.singInContainer .signUpBlock .WCBMessage {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+.singInContainer .signUpBlock .loginMessage {
+  padding: 0 5%;
+}
+.singInContainer .signUpBlock .signCLickBtn {
+  margin: 40px 25%;
+  width: 150px;
+}
+.singInContainer .signUpBlock .signCLickBtn button {
+  background-color: none;
+  border-radius: 25px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0 20%;
+  border: 1px solid #ffffff;
+}/*# sourceMappingURL=styleLogin.css.map */

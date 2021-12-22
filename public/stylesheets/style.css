@@ -1,0 +1,81 @@
+::before::after {
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  background-color: #4070a7;
+  display: flex;
+  justify-content: space-around;
+}
+header h1 {
+  margin: 0;
+  padding: 25px 150px;
+  color: #ffffff;
+}
+header .logIn {
+  padding: 25px 200px;
+}
+header .logIn .forgotPwd > a {
+  color: #ffffff;
+  margin-left: 210px;
+}
+header .logIn .userAuthName > p {
+  color: #ffee00;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.contentnContainer {
+  min-height: 1000px;
+  width: 100%;
+  display: flex;
+  border: 1px solid grey;
+  margin: 0 auto;
+}
+.contentnContainer .leftBar {
+  width: 15%;
+  background-color: rgba(200, 212, 228, 0.719);
+}
+.contentnContainer .centerContainer {
+  width: 70%;
+  background-color: rgba(233, 238, 245, 0.527);
+  margin-top: 99px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contentnContainer .centerContainer .cardContainer {
+  width: 250px;
+  max-height: 350px;
+  margin: 20px 0;
+}
+.contentnContainer .centerContainer .cardContainer .imageProd img {
+  width: 150px;
+  padding: 10px 50px;
+}
+.contentnContainer .centerContainer .cardContainer .nameProd > p, .contentnContainer .centerContainer .cardContainer .priceProd > p {
+  text-align: center;
+}
+.contentnContainer .centerContainer .cardContainer .buyLink {
+  background-color: rgba(167, 164, 164, 0.637);
+  border-radius: 5px;
+  padding: 10px 100px;
+}
+.contentnContainer .centerContainer .cardContainer .buyLink a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #000000;
+}
+.contentnContainer .rightBar {
+  width: 15%;
+  background-color: rgba(200, 212, 228, 0.719);
+}/*# sourceMappingURL=style.css.map */

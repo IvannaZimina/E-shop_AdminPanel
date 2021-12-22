@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+
+  <title><%= title %></title>
+</head>
+<body>
+
+  <header>
+    <h1><%= title %></h1>
+    <div class="logIn">
+
+      <div class="blockLogin hidden">
+          <form name="signUpForm">
+            <input type="text" name="nameUser" placeholder="name">
+            <input type="password" name="pwdUser" placeholder="password">
+            <button type="submit" class="btn-flat">Sign in</button>
+            <div class="forgotPwd"><a href="/resetPwd" >Forgot your password?</a></div>
+        </form>
+      </div>
+
+      <div class="userAuthName hidden"></div>
+    </div>
+  </header>
+  
+  <div class="contentnContainer">
+    <div class="leftBar"></div>
+
+    <div class="centerContainer"></div>
+
+    <div class="rightBar"></div>
+  </div>
+  
+  <script src="/javascripts/script.js"></script>
+  
+</body>
+</html>

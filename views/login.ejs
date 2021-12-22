@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="/stylesheets/styleLogin.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+  
+    <title>AUTHORIZATION</title>
+</head>
+<body>
+    
+    <div class="firstBlock">
+        <div class="createContainer">
+
+            <div class="signInBlock">
+                <div class="WCBMessage"><p>Welcome Back!</p></div>
+                <div class="loginMessage"><p>To keep connected with us please login with your personal info</p></div>
+                <div class="signCLickBtn"><button class="btn-flat signInClick">Sing in</button></div>
+            </div>
+
+            <div class="registerBlock">
+                <div class="createAcc"><p>Create Account</p></div>
+
+                <div class="createBlock">
+                    <form name="signInForm">
+                        <div class="userName">
+                            <input type="text" name="nameUser" placeholder="name">
+                        </div>
+
+                        <div class="emailUser">
+                            <input type="email" name="emailUser" placeholder="email">
+                        </div>
+
+                        <div class="pwdUser">
+                            <input type="password" name="pwdUser" placeholder="password">
+                        </div>
+
+                        <div class="signUpBtn">
+                            <button type="submit" class="btn-flat">Sign up</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="secondBlock hidden">
+
+        <div class="singInContainer">
+
+            <div class="enteringBlock">
+                <div class="enterAcc"><p>Sign in account</p></div>
+                <div class="enterBlock">
+                    <form name="signUpForm">
+
+                        <div class="nameUser">
+                            <input type="text" name="nameUser" placeholder="name">
+                        </div>
+
+                        <div class="pwdUser">
+                            <input type="password" name="pwdUser" placeholder="password">
+                        </div>
+
+                        <div class="forgotPwd"><a href="/resetPwd" >Forgot your password?</a></div>
+
+                        <div class="signUpBtn">
+                            <button type="submit" class="btn-flat">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="signUpBlock">
+                <div class="WCBMessage"><p>Hello, Friend!</p></div>
+                <div class="loginMessage"><p>Enter your personal details and start journey</p></div>
+                <div class="signCLickBtn"><button class="btn-flat signUpClick">Sing up</button></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="invalidMessage hidden">
+        <p>Sorry, you enter invalid datas.</p>
+    </div>
+    
+
+    <script src="/javascripts/login.js"></script>
+</body>
+</html>

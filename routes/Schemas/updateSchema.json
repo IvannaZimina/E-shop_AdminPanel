@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "properties": {
+        "nameProd": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 255
+        },
+        "nameProduct": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 255
+        }
+    },
+    "additionalProperties": false
+}

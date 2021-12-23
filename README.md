@@ -13,7 +13,10 @@ Create functional options:
 	1) form to login user on web-site;
 	2) forms in admin panel to manage products, categories, images, sizes;
 	3) possibility to create comment for the goods on separate page of goods.
-  
+
+## Environment
+Clone project to your machine. Use npm install to add all dependencies in project and open web-app.
+
 ## View
 Sign up / Sign in forms
 

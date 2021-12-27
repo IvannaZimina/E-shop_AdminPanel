@@ -2,17 +2,19 @@
 Create web-app for photographers.
 
 ## Stack
-Node.js, Express.js, EJS, JS native, Sessions, Ajax, localStorage, Multer for images, AJV validation with JSON-schema, MongoDB, Mongoose, NPM, Sass (SCSS), Materialize library.
+Node.js, Express.js, EJS, JS native, Sessions, AJAX, localStorage, Multer for images, AJV validation with JSON-schema, MongoDB, Mongoose, NPM, Sass (SCSS), Materialize library.
 
 ## Description
-Create Node.js app with Express.js using EJS.
-Create models of DB: clients, categories, comments, enterprises, images, products, sessions, sizes.
-Make Sign in and Sign up form for users. Use session ID to identification user on site. Make middleware in routes to check login user by session ID.
-Create view of site and admin panel using own styles by Sass (SCSS) and materialize library.
-Create functional options:
-	1) form to login user on web-site;
+There was created Node.js app with Express.js using EJS.
+There were created models of DB entities: clients, categories, comments, enterprises, images, products, sessions, sizes.
+There were made Sign in and Sign up forms for users. There was used session ID to identify user on web-site. 
+There was made middleware in routers to check if a user is logged in by session ID.
+There was created a view of web-site and admin panel using own styles by Sass (SCSS) and Materialize library.
+The web-app contains the following functional options:
+	1) forms to sign in and sign up a user on web-site;
 	2) forms in admin panel to manage products, categories, images, sizes;
-	3) possibility to create comment for the goods on separate page of goods.
+	3) possibility to create comments for the goods on a separate page of goods.
+
 
 ## Environment
 Clone project to your machine. Use npm install to add all dependencies in project and open web-app.

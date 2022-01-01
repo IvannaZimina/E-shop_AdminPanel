@@ -2,18 +2,30 @@
 Create web-app for e-shop with admin panel.
 
 ## Stack
-Node.js, Express.js, EJS, JS native, Sessions, AJAX, localStorage, Multer for images, AJV validation with JSON-schema, MongoDB, Mongoose, NPM, Sass (SCSS), Materialize library.
+### Backend:
+JavaScript, Node.js, Express.js, REST API, Sessions, JSON validation, AJAX, MongoDB
+### Libraries:
+Mongoose, AJV, crypto, deep-freeze, multer for images.
+### Frontend:
+JavaScript, EJS, localStorage, Sass (SCSS).
 
 ## Description
-There was created Node.js app with Express.js using EJS.
-There were created models of DB entities: clients, categories, comments, enterprises, images, products, sessions, sizes.
-There were made Sign in and Sign up forms for users. There was used session ID to identify user on web-site. 
-There was made middleware in routers to check if a user is logged in by session ID.
-There was created a view of web-site and admin panel using own styles by Sass (SCSS) and Materialize library.
-The web-app contains the following functional options:
-	1) forms to sign in and sign up a user on web-site;
-	2) forms in admin panel to manage products, categories, images, sizes;
-	3) possibility to create comments for the goods on a separate page of goods.
+
+### Backend
+There was created Node.js app with Express.js using MVC. There were created next modules:
+-	Server module: contain main app file with base configurations of app;
+-	Configuration module: contain configuration of: PORT, deepfreeze and connection to DB;
+-	Model module: created models of DB entities in MongoDB - clients, categories, comments, enterprises, images, products, sessions, sizes;
+-	Controller module: created functions of interaction with the DB entities (CRUD);
+-	Routes module: built REST API architecture using POST and GET methods, made middleware to check if a user is logged in by session ID to enter a personal page.
+-	Schemas module: create JSON validation scheme for validate the data from front.
+
+### Frontend
+There were made view of web-site using EJS, local Storage, session Storage and own styles by Sass (SCSS):
+1)	Sign in and Sign up forms for users. There was used session ID to identify user on web-site;
+2)	view of web-site with goods and user authorizations block;
+3)	view of admin panel with forms (inputs, selection/options) to manage products, categories, images, sizes;
+page for separate good with its information and possibility to create comments for the goods for logged users.
 
 
 ## Environment

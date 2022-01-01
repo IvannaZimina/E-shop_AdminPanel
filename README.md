@@ -1,5 +1,5 @@
 ## Task
-Create web-app for photographers.
+Create web-app for e-shop with admin panel.
 
 ## Stack
 Node.js, Express.js, EJS, JS native, Sessions, AJAX, localStorage, Multer for images, AJV validation with JSON-schema, MongoDB, Mongoose, NPM, Sass (SCSS), Materialize library.

@@ -12,21 +12,20 @@ JavaScript, EJS, localStorage, Sass (SCSS).
 ## Description
 
 ### Backend
-There was created Node.js app with Express.js using MVC. There were created next modules:
--	Server module: contain main app file with base configurations of app;
--	Configuration module: contain configuration of: PORT, deepfreeze and connection to DB;
--	Model module: created models of DB entities in MongoDB - clients, categories, comments, enterprises, images, products, sessions, sizes;
--	Controller module: created functions of interaction with the DB entities (CRUD);
+A web-app was created with Node.js app (via express-generator) using MVC. The following modules were implemented:
+-	Server module: contains main app file with base configurations of application;
+-	Configuration module: contains configuration of PORT, deepfreeze and connection to DB;
+-	Model module: contains models of DB entities in MongoDB - clients, categories, comments, enterprises, images, products, sessions, sizes;
+-	Controller module: contains functions of interaction with the DB entities (CRUD);
 -	Routes module: built REST API architecture using POST and GET methods, made middleware to check if a user is logged in by session ID to enter a personal page.
--	Schemas module: create JSON validation scheme for validate the data from front.
+-	Schemas module: JSON validation schemes for validate the data from front.
 
 ### Frontend
-There were made view of web-site using EJS, local Storage, session Storage and own styles by Sass (SCSS):
-1)	Sign in and Sign up forms for users. There was used session ID to identify user on web-site;
+The following views of web-site were created using EJS, local storage, session Storage and own styles by Sass (SCSS):
+1)	Sign in and Sign up forms for users. Session ID to identify user on web-site;
 2)	view of web-site with goods and user authorizations block;
 3)	view of admin panel with forms (inputs, selection/options) to manage products, categories, images, sizes;
 page for separate good with its information and possibility to create comments for the goods for logged users.
-
 
 ## Environment
 Clone project to your machine. Use npm install to add all dependencies in project and open web-app.
